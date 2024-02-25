@@ -1,0 +1,44 @@
+.container{    
+    background-image: url("../../assets/68245c6a2f815efca96e54761b8054b4.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+    border: 1px solid rgb(28, 2, 77);
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    right: 10%;
+    border-radius: 4%;
+}
+
+.form-detail{
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 115px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.field-form{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    height: 5vh;
+    align-items: center;
+    text-align: center;
+}
+
+.register-text{
+    align-self: end;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.register-text:hover{
+    color: blue;
+}
